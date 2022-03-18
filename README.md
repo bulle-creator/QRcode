@@ -202,3 +202,8 @@ Code</button>
 </html>
 
 ```
+## Un tableau présentant les différentes URI supportées par votre API
+
+
+
+
