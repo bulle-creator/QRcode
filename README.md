@@ -14,5 +14,5 @@ lecteurs de QR Code à l’entrée des salles avec un traitement par une applica
 
 ## Diagramme des cas d'utilisation
 
-
-<img width="477" alt="cas d'utilisation" src="https://user-images.githubusercontent.com/77787321/159012736-6dcbdc2d-4aa4-4ea5-86a6-5d7601289dd3.png">
+         <img width="477" alt="cas d'utilisation" src="https://user-images.githubusercontent.com/77787321/159012736-6dcbdc2d-4aa4-4ea5-86a6-5d7601289dd3.png">
+## Un diagramme UML des entités
