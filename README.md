@@ -1,4 +1,4 @@
-### QRcode
+# QRcode
 
 ## Contexte
 
