@@ -234,3 +234,4 @@ Code</button>
 
 ## Sources :
 * https://askcodez.com/node-js-cryptage-des-mots-de-passe.html
+* https://www.youtube.com/watch?v=J8NtoLxhoRc
