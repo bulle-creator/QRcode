@@ -231,3 +231,6 @@ Code</button>
 
 ```
 ## Un tableau présentant les différentes URI supportées par votre API
+
+## Sources :
+* https://askcodez.com/node-js-cryptage-des-mots-de-passe.html
