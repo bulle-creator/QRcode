@@ -20,7 +20,7 @@ Elle désire remplacer, pour une meilleure gestion des accès, les lecteurs de c
 
 ## Evil User Story
 
-En tant qu'utilisateur malveillant je veux avoir accés à la base de donée afin d'avoir accées à qui et à quelle heure entre dans la salle.
+En tant qu'utilisateur malveillant je veux avoir accés à la base de donée afin d'avoir accées à qui et à quelle heure entre le personnel dans la salle.
 
 *Mesure de protéction:* Pour empêcher les personnes malveillantes d’avoir accès au mot de passe nous allons crypter certaine données comme leur codes d'identification.
 
