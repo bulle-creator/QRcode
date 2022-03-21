@@ -12,7 +12,7 @@ Elle désire remplacer, pour une meilleure gestion des accès, les lecteurs de c
 
 ## Diagramme des cas d'utilisation cas d'utilisation
 
-<img width="477" alt="cas d'utilisation" src="https://user-images.githubusercontent.com/77787321/159021116-d085091f-d572-469a-be96-50674f073757.png">
+<img width="582" alt="cas d'utilisation" src="https://user-images.githubusercontent.com/77787321/159302474-617b3c57-f8c4-43cf-abc6-d2cef22f56ba.png">
 
 ## Un diagramme UML des entités ULM
 
