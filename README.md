@@ -41,7 +41,7 @@ exports.cryptCode = function(code, callback) {
 exports.compareCode = function(plainPass, hashword, callback) {
    bcrypt.compare(plainPass, hashword, function(err, isCodeMatch) {   
        return err == null ?
-           callback(null, isPasswordMatch) :
+           callback(null, isCodeMatch) :
            callback(err);
    });
 };
