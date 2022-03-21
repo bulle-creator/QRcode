@@ -22,8 +22,30 @@ Elle désire remplacer, pour une meilleure gestion des accès, les lecteurs de c
 
 En tant qu'utilisateur malveillant je veux avoir accés à la base de donée afin d'avoir accées à qui et à quelle heure entre dans la salle.
 
-*Mesure de protéction:*
+*Mesure de protéction:* Pour empêcher les personnes malveillantes d’avoir accès au mot de passe nous allons crypter certaine données comme leur codes d'identification.
 
+```
+var bcrypt = require('bcrypt');
+
+exports.cryptCode = function(code, callback) {
+   bcrypt.genSalt(10, function(err, salt) {
+    if (err) 
+      return callback(err);
+
+    bcrypt.hash(code, salt, function(err, hash) {
+      return callback(err, hash);
+    });
+  });
+};
+
+exports.compareCode = function(plainPass, hashword, callback) {
+   bcrypt.compare(plainPass, hashword, function(err, isCodeMatch) {   
+       return err == null ?
+           callback(null, isPasswordMatch) :
+           callback(err);
+   });
+};
+```
 
 ## Le code NodeJS du modèle pour la collection intervenants
 
