@@ -178,60 +178,60 @@ Mettez ensuite le code dans la vue createqr.ejs :
 <!DOCTYPE html>
 <html>
 <head>
-<title><%= title %></title>
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
-rel="stylesheet" integrity="sha384-
-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
-crossorigin="anonymous">
-<script
-src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-crossorigin="anonymous"></script>
+    <title><%= title %></title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+    rel="stylesheet" integrity="sha384-
+    1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+    crossorigin="anonymous">
+    <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
 </head>
 <body>
-<nav class="navbar navbar-expand-lg bg-primary text-uppercase">
-<div class="container">
-<h1 class="text-white"><%= title %></h1>
-<div class="collapse navbar-collapse" id="navbarResponsive">
-<ul class="navbar-nav ms-auto">
-<li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3
-rounded text-white" href="/">Home</a></li>
-<li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3
-rounded text-white" href="/createqr">Create</a></li>
-</ul>
-</div>
-</div>
-</nav>
-<header class="masthead text-center">
-<div class="container d-flex align-items-center flex-column">
-<p></p>
-</div>
- </header>
-<div class="container-fluid align-items-center">
- <div class="form-group">
-<form action="/createqr/scan" method="POST" class="form">
-<div class="form-group">
-<label for="identite">Identité</label>
-<input type="text" class="form-control" name="identite" id="identite"
-placeholder="Entrez votre prénom suivi de votre nom">
-</div>
-<div class="form-group">
-<label for="code">Code de sécurité :</label>
-<input type="password" class="form-control" name="code" id="code"
-placeholder="Entrez votre code à l'abri des regards...">
-<div class="form-group">
-<br />
-<button type="submit" class="btn btn-outline-primary">Générer le QR
-Code</button>
-</form>
-</div>
-</div>
-</body>
-</html>
-
+    <nav class="navbar navbar-expand-lg bg-primary text-uppercase">
+        <div class="container">
+            <h1 class="text-white"><%= title %></h1>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3
+                        rounded text-white" href="/">Home</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3
+                            rounded text-white" href="/createqr">Create</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <header class="masthead text-center">
+                <div class="container d-flex align-items-center flex-column">
+                    <p></p>
+                </div>
+            </header>
+            <div class="container-fluid align-items-center">
+                <div class="form-group">
+                    <form action="/createqr/scan" method="POST" class="form">
+                        <div class="form-group">
+                            <label for="identite">Identité</label>
+                            <input type="text" class="form-control" name="identite" id="identite"
+                            placeholder="Entrez votre prénom suivi de votre nom">
+                        </div>
+                        <div class="form-group">
+                            <label for="code">Code de sécurité :</label>
+                            <input type="password" class="form-control" name="code" id="code"
+                            placeholder="Entrez votre code à l'abri des regards...">
+                            <div class="form-group">
+                                <br />
+                                <button type="submit" class="btn btn-outline-primary">Générer le QR
+                                    Code</button>
+                                </form>
+                            </div>
+                        </div>
+                    </body>
+                    </html>
 ```
 ## Un tableau présentant les différentes URI supportées par votre API
 
 ## Sources :
+
 * https://askcodez.com/node-js-cryptage-des-mots-de-passe.html
 * https://www.youtube.com/watch?v=J8NtoLxhoRc
