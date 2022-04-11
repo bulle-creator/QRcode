@@ -229,7 +229,6 @@ Mettez ensuite le code dans la vue createqr.ejs :
                     </body>
                     </html>
 ```
-## Un tableau présentant les différentes URI supportées par votre API
 
 ## Sources :
 
